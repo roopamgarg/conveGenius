@@ -1,0 +1,98 @@
+.contact-card{
+    display: flex;
+    /* height: 80vh; */
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 80px -40px rgba(0,0,0,.53);
+    box-shadow: 0 0 80px -40px rgba(0,0,0,.53);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 25px 0 40px;
+    
+}
+
+
+
+.contact-card__header{
+ 
+    width: 40%;
+    color: #dbdbdb;
+    background-image: url(https://s3-ap-southeast-1.amazonaws.com/test-slate-data/cg-impact-client/assets/contact-us/form-background-desktop.PNG);
+    background-size: cover;
+    background-position-x: center;
+    -webkit-clip-path: polygon(0 0,100% 0,90% 100%,0 100%);
+    clip-path: polygon(0 0,100% 0,90% 100%,0 100%);
+}
+.contact-card__header p{
+    margin:0;
+}
+.contact-card__heading{
+    font-size: 20px;
+    text-align: left;
+    padding: 52px 48px 20px;
+}
+
+.contact-card__sub-heading{
+    padding:1em 48px;
+    font-size: 16px;
+    text-align: left;
+}
+.form__button{
+    text-align: left;
+    padding: 1rem;
+}
+.contact-card__dash{
+    
+
+    margin: 0 48px;
+    width: 1rem;
+    height: .2rem;
+    background: #fff;
+}
+.select__input{
+    width: 100%;
+    text-align: left;
+}
+.contact-card__form{
+    width: 60%;
+    display:flex;
+    padding: 3rem 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.MuiInputLabel-formControl{
+    font-size: 12px !important;
+}
+
+
+@media (max-width:720px){
+    .contact-card{
+        display: block;
+    }
+    .contact-card__header{
+        width: 100%;
+      /* padding: 1rem; */
+        clip-path: polygon(0 0,100% 0,100% 100%,0 95%);
+    }
+    .contact-card__form{
+        width: 100%;
+        padding: 1rem;
+        box-sizing: border-box;
+    }
+    .contact-card__heading{
+        font-size: 15px;
+        padding: 35px;
+    }
+    .contact-card__sub-heading{
+        font-size: 1em;
+        padding: 1em 36px 20px;
+    }
+    .input-flex{
+        display: block;
+    }
+}
