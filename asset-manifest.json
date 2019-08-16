@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/conveGenius/static/css/main.9eaf34d3.chunk.css",
+    "main.js": "/conveGenius/static/js/main.4d75def1.chunk.js",
+    "main.js.map": "/conveGenius/static/js/main.4d75def1.chunk.js.map",
+    "runtime~main.js": "/conveGenius/static/js/runtime~main.981d326d.js",
+    "runtime~main.js.map": "/conveGenius/static/js/runtime~main.981d326d.js.map",
+    "static/css/2.266e55a5.chunk.css": "/conveGenius/static/css/2.266e55a5.chunk.css",
+    "static/js/2.c64891a7.chunk.js": "/conveGenius/static/js/2.c64891a7.chunk.js",
+    "static/js/2.c64891a7.chunk.js.map": "/conveGenius/static/js/2.c64891a7.chunk.js.map",
+    "index.html": "/conveGenius/index.html",
+    "precache-manifest.79d42b8117a3488993c30c09d8e928b4.js": "/conveGenius/precache-manifest.79d42b8117a3488993c30c09d8e928b4.js",
+    "service-worker.js": "/conveGenius/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/conveGenius/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.9eaf34d3.chunk.css.map": "/conveGenius/static/css/main.9eaf34d3.chunk.css.map",
+    "static/media/App.css": "/conveGenius/static/media/contactus-banner.372e1aac.png",
+    "static/media/logo.svg": "/conveGenius/static/media/logo.5d5d9eef.svg"
+  }
+}
